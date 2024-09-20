@@ -4,9 +4,7 @@ The Reflection component provides a customizable reflection effect for SwiftUI v
 
 ## Preview
 
-### Light Mode
-![Reflection View Light](img/ReflectionView_light.png)
-
-### Dark Mode
-![Reflection View Dark](img/ReflectionView_dark.png)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="img/ReflectionView_light.png" width="300" alt="Reflection View Light"> | <img src="img/ReflectionView_dark.png" width="300" alt="Reflection View Dark"> |
 
