@@ -15,6 +15,7 @@
 		CB3A87832C9D6BBC00D3E164 /* swiftui_commonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A87822C9D6BBC00D3E164 /* swiftui_commonUITests.swift */; };
 		CB3A87852C9D6BBC00D3E164 /* swiftui_commonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A87842C9D6BBC00D3E164 /* swiftui_commonUITestsLaunchTests.swift */; };
 		CB3A87932C9D6BFE00D3E164 /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A87922C9D6BFE00D3E164 /* ReflectionView.swift */; };
+		CB3A87982C9DAEA600D3E164 /* TextFieldAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A87972C9DAEA600D3E164 /* TextFieldAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CB3A87822C9D6BBC00D3E164 /* swiftui_commonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_commonUITests.swift; sourceTree = "<group>"; };
 		CB3A87842C9D6BBC00D3E164 /* swiftui_commonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_commonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CB3A87922C9D6BFE00D3E164 /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
+		CB3A87972C9DAEA600D3E164 /* TextFieldAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				CB3A87672C9D6BBB00D3E164 /* swiftui_commonApp.swift */,
 				CB3A87692C9D6BBB00D3E164 /* ContentView.swift */,
+				CB3A87942C9DAE5A00D3E164 /* TextFieldAnimation */,
 				CB3A87912C9D6BD700D3E164 /* Reflection */,
 				CB3A876B2C9D6BBC00D3E164 /* Assets.xcassets */,
 				CB3A876D2C9D6BBC00D3E164 /* Preview Content */,
@@ -136,6 +139,14 @@
 				CB3A87922C9D6BFE00D3E164 /* ReflectionView.swift */,
 			);
 			path = Reflection;
+			sourceTree = "<group>";
+		};
+		CB3A87942C9DAE5A00D3E164 /* TextFieldAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A87972C9DAEA600D3E164 /* TextFieldAnimationView.swift */,
+			);
+			path = TextFieldAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				CB3A876A2C9D6BBB00D3E164 /* ContentView.swift in Sources */,
 				CB3A87932C9D6BFE00D3E164 /* ReflectionView.swift in Sources */,
 				CB3A87682C9D6BBB00D3E164 /* swiftui_commonApp.swift in Sources */,
+				CB3A87982C9DAEA600D3E164 /* TextFieldAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
