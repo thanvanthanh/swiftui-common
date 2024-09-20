@@ -9,22 +9,28 @@ import SwiftUI
 
 struct ReflectionView: View {
     var body: some View {
-        ScrollView {
-            ZStack {
-                VStack {
-                    Text("Hello, SwiftUI!")
-                        .font(.system(size: 50))
-                        .foregroundStyle(
-                            LinearGradient(
-                                colors: [.blue, .purple, .red],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
+        ScrollView(showsIndicators: false) {
+            VStack(spacing: 40) {
+                
+                Spacer()
+                
+                Text("Hello, SwiftUI!")
+                    .font(.system(size: 50))
+                    .foregroundStyle(
+                        LinearGradient(
+                            colors: [.blue, .purple, .red],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
                         )
-                        .reflection(spacing: 0)
-                        .containerRelativeFrame(.vertical)
-                }
-                .padding()
+                    )
+                    .reflection(spacing: 0)
+                
+                Image("duck")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200)
+                    .clipped()
+                    .reflection(spacing: -10)
             }
         }
     }
