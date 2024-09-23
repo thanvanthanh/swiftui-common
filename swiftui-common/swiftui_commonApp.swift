@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftui_commonApp: App {
     var body: some Scene {
         WindowGroup {
-            TextFieldAnimationView()
+            CardFlip()
         }
     }
 }
